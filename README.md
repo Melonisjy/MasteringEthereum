@@ -1,2 +1,3 @@
 # MasteringEthereum
-'Mastering Ethereum' 책의 예제 코드
+
+'Mastering Ethereum' 책의 예제 소스
