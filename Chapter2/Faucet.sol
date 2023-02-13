@@ -6,5 +6,5 @@ contract Faucet {
   msg.sender.transfer(withdraw_amount);
  } 
 
- function () public payable{}
+ function () external payable{}
 }
