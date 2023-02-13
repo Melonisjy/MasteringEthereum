@@ -1,4 +1,5 @@
-pragma solidity ^0.5.16;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.4.19;
 
 contract Faucet {
  function withdraw(uint withdraw_amount) public {
@@ -6,5 +7,5 @@ contract Faucet {
   msg.sender.transfer(withdraw_amount);
  } 
 
- function () external payable{}
+ function () public payable{}
 }

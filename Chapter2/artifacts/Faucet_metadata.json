@@ -1,20 +1,14 @@
 {
 	"compiler": {
-		"version": "0.5.17+commit.d19bba13"
+		"version": "0.4.19+commit.c4cbbb05"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"payable": true,
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
 				"constant": false,
 				"inputs": [
 					{
-						"internalType": "uint256",
 						"name": "withdraw_amount",
 						"type": "uint256"
 					}
@@ -24,6 +18,11 @@
 				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
 			}
 		],
 		"devdoc": {
@@ -37,7 +36,6 @@
 		"compilationTarget": {
 			"Chapter2/Faucet.sol": "Faucet"
 		},
-		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,
@@ -47,10 +45,9 @@
 	},
 	"sources": {
 		"Chapter2/Faucet.sol": {
-			"keccak256": "0xc6e57c79518aac5e9205b278a315ad6d8276aa01590f3759f611e4062671ee76",
+			"keccak256": "0x65ad04401506ed4a6fb81c11026bb60dca7062c506a5cdd7662fcd0b439fe2b5",
 			"urls": [
-				"bzz-raw://afdf428fa64543816bf07ebdb1368e7d247adb98878d99689ddbebc98b308993",
-				"dweb:/ipfs/QmUtbFieQ4Dv5wNCgkwdQtiPJJ5P8ybMbkgbkPeUqfuhYj"
+				"bzzr://1620c4ebf200b7ff10ea3f60f0d7b1eec2be0723831f55562e32e7acdceff7f2"
 			]
 		}
 	},
